@@ -1333,8 +1333,8 @@ header .navigation .navigation-items a:hover:before{
         height: 40px;
         cursor: pointer;
         transition: 0.3s ease;
-        /* padding: absolute; */
-        margin-right: 50rem;
+/*         padding: absolute; */
+/*         margin-right: 50rem; */
     }
     .menu-btn.active{
         z-index: 999;
