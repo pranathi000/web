@@ -576,7 +576,7 @@ img{
 }
 /* our freelancing section starts */
 .section-freelancing {
-    background-image: url("../images/man.jpg");
+    background-image: url("man.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
