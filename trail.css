@@ -230,7 +230,8 @@ img{
 .hero-para{
     margin-top: 1.5rem;
     margin-bottom: 5rem;
-    max-width: 60rem;
+    max-width: 130rem;
+    /* font-size: 8rem; */
 }
 .section-hero-image{
     display: flex;
@@ -432,6 +433,7 @@ img{
     font-size: 5rem ;
     padding: -1rem 2rem;
     transition: all 0.2s linear;
+    height: 50rem;
 }
 .service-box:hover{
     transform: translateY(-1.5rem);
@@ -576,7 +578,7 @@ img{
 }
 /* our freelancing section starts */
 .section-freelancing {
-    background-image: url("man.jpg");
+    background-image: url("../images/man.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
@@ -1091,9 +1093,29 @@ img{
 
 @media screen and (max-width: 400px) {
     
+    .hero-para{
+        font-size: 8rem;
+    }
+    .bio-para{
+       
+     font-size: 8rem;
+    }
+    .skillcontainer{
+        height: 50rem;
+        padding-left: 40rem;
+    }
+    .skillcontainer h3{
+        font-size: 5rem;
+    }
     .portfolio-images {
         width: 140%;
 
+    }
+    .service-box p{
+        font-size: 5rem;
+    }
+    .button{
+        font-size: 5rem;
     }
     .section-portfolio{
         padding: 50px;
@@ -1123,7 +1145,7 @@ img{
         grid-template-columns: 1fr;
     }
     .section-services .grid-three-column{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns:  1fr;
     }
     .section-header .vedio-slide{
         width: 400%;
@@ -1223,6 +1245,7 @@ header .navigation .navigation-items a:hover:before{
     color:rgb(255, 255, 255);
     width: 70%;
     margin-top: 50px;
+
 }
 .home .content h1{
     font-size: 4em;
@@ -1231,6 +1254,7 @@ header .navigation .navigation-items a:hover:before{
     letter-spacing: 5px;
     line-height: 75px;
     margin-bottom: 40px;
+    width: 100rem;
 
 }
 .home .content h1 span{
@@ -1326,19 +1350,19 @@ header .navigation .navigation-items a:hover:before{
         
     }
     .menu-btn{
-        background: url("menu.png") no-repeat;
+        background: url("../images/menu.png") no-repeat;
         background-size: 30px;
         background-position: center;
         width: 40px;
         height: 40px;
         cursor: pointer;
         transition: 0.3s ease;
-/*         padding: absolute; */
-
+        /* padding: absolute; */
+        margin-right: 70rem;
     }
     .menu-btn.active{
         z-index: 999;
-        background: url("close.png") no-repeat no-repeat;
+        background: url("../images/close.png") no-repeat no-repeat;
         background-size: 25px;
         background-position: center;
         transition: 0.3s ease;
