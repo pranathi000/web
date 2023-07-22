@@ -402,11 +402,11 @@ img{
     background-color: var(--gradientSupport);
     transition: all 0.3s linear;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 3rem;
 }
 
 .counter-numbers{
-    font-size: 0.8rem;
+    font-size: 3rem;
     color: #131212;
 }
 .section-work-data p{
