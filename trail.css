@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Alfa+Slab+One&family=Courgette&family=Dancing+Script:wght@700&family=Inconsolata&family=Josefin+Sans:ital@1&family=Pompiere&family=Quintessential&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Alfa+Slab+One&family=Courgette&family=Dancing+Script:wght@700&family=Inconsolata&family=Josefin+Sans:ital@1&family=Pompiere&family=Quintessential&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Alfa+Slab+One&family=Courgette&family=Dancing+Script:wght@700&family=Inconsolata&family=Josefin+Sans:ital,wght@0,700;1,400&family=Pompiere&family=Quintessential&display=swap');
 /* font-family: 'Dancing Script', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Alfa+Slab+One&family=Alkalami&family=Courgette&family=Dancing+Script:wght@700&family=Inconsolata&family=Josefin+Sans:ital,wght@0,700;1,400&family=Pompiere&family=Quintessential&display=swap');
@@ -1112,6 +1112,12 @@ img{
 
     }
     .service-box p{
+        font-size: 5rem;
+    }
+    .section-work-data p{
+        font-size: 5rem;
+    }
+    .counter-numbers{
         font-size: 5rem;
     }
     .button{
