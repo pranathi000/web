@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Alfa+Slab+One&family=Courgette&family=Dancing+Script:wght@700&family=Inconsolata&family=Josefin+Sans:ital@1&family=Pompiere&family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Alfa+Slab+One&family=Courgette&family=Dancing+Script:wght@700&family=Inconsolata&family=Josefin+Sans:ital@1&family=Pompiere&family=Quintessential&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Alfa+Slab+One&family=Courgette&family=Dancing+Script:wght@700&family=Inconsolata&family=Josefin+Sans:ital,wght@0,700;1,400&family=Pompiere&family=Quintessential&display=swap');
 /* font-family: 'Dancing Script', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Alfa+Slab+One&family=Alkalami&family=Courgette&family=Dancing+Script:wght@700&family=Inconsolata&family=Josefin+Sans:ital,wght@0,700;1,400&family=Pompiere&family=Quintessential&display=swap');
@@ -402,11 +402,11 @@ img{
     background-color: var(--gradientSupport);
     transition: all 0.3s linear;
     text-align: center;
-
+    font-size: 6rem;
 }
 
 .counter-numbers{
-    font-size: 2.5rem;
+    font-size: 4rem;
     color: #131212;
 }
 .section-work-data p{
@@ -919,6 +919,9 @@ img{
     .section-portfolio{
         width: 250%;
     }
+    /* .common-heading{
+        position: left;
+    } */
     .section-services{
         width: 250%;
         text-align: center;
@@ -1082,6 +1085,7 @@ img{
     .section-footer{
         width: 360%;
     }
+
     .section-header .vedio-slide{
         width: 360%;
     }
@@ -1117,8 +1121,9 @@ img{
     .section-work-data p{
         font-size: 5rem;
     }
-    .counter-numbers{
-        font-size: 5rem;
+    .counter-numbers work{
+        font-size: 10rem;
+        
     }
     .button{
         font-size: 5rem;
@@ -1127,6 +1132,10 @@ img{
         padding: 50px;
         width: 400%;
 
+    }
+    .work{
+        font-size: 50rem;
+        width: 5rem;
     }
     .section-hero{
         width: 400%;
