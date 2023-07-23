@@ -323,8 +323,7 @@ img{
 
 .section-portfolio p,
 .section-services p {
-    max-width: 60rem;
-    
+    max-width: 150rem; 
   }
 
 .portfolio-images {
@@ -425,6 +424,7 @@ img{
 }
 .section-services p{
     max-width: 150rem;
+    
 } 
 .service-box{
     text-align: center;
@@ -2524,11 +2524,17 @@ img{
     .section-services{
         width: 400%;
     }
+    .section-services p{
+        font-size: 5rem;
+    }
     .section-biodata{
         width: 400%;
     }
     .section-contact , .section-testimonial , .section-services , .section-footer , .section-freelancing , .section-work-data{
         width: 400%;
+    }
+    .section-portfolio p{
+        font-size: 5rem;
     }
     .section-hero .grid-two-column{
         grid-template-columns: 1fr;
@@ -2545,6 +2551,18 @@ img{
     }
     .section-header .vedio-slide{
         width: 400%;
+    }
+
+    .section-footer .grid-two-column{
+        grid-template-columns:1fr 1fr;
+        /* font-size: 5rem; */
+
+    }
+    .section-footer h3{
+        font-size: 4rem;
+    }
+    .section-footer p{
+        font-size: 3rem;
     }
     .menu-btn{
         margin-right: -103rem;
