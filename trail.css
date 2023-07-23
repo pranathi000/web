@@ -2598,6 +2598,16 @@ img{
     .menu-btn{
         margin-right: -103rem;
     }
+    .f-links li{
+        font-size: 3rem;
+    }
+    .f-services li{
+        font-size: 3rem;
+    }
+
+    .f-sharp a{
+        font-size: 3rem;
+    }
 
 }
 
