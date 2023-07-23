@@ -1516,6 +1516,12 @@ img{
         .section-services{
             width: 360%;
         }
+        .section-services{
+           font-size: 5rem;
+        }
+        .section-portfolio p{
+            font-size: 5rem;
+        }
         .section-testimonial{
             width: 360%;
         }
@@ -1534,14 +1540,28 @@ img{
         .section-footer{
             width: 360%;
         }
-    
+        .section-footer p{
+            font-size: 3rem;
+        }
         .section-header .vedio-slide{
             width: 360%;
         }
         .menu-btn{
             margin-right: -100rem;
         }
+        .section-footer .grid-two-column{
+            grid-template-columns:1fr 1fr;
+            /* font-size: 5rem; */
+    
+        }
+        .section-footer h3{
+            font-size: 4rem;
+        }
+        .section-footer p{
+            font-size: 3rem;
+        }
     }
+
     
     
     @media screen and (max-width: 400px) {
@@ -2475,6 +2495,17 @@ img{
     .menu-btn{
         margin-right: -100rem;
     }
+    .section-footer .grid-two-column{
+        grid-template-columns:1fr 1fr;
+        /* font-size: 5rem; */
+
+    }
+    .section-footer h3{
+        font-size: 4rem;
+    }
+    .section-footer p{
+        font-size: 3rem;
+    }
 }
 
 
@@ -2534,7 +2565,7 @@ img{
         width: 400%;
     }
     .section-portfolio p{
-        font-size: 5rem;
+        font-size: 7rem;
     }
     .section-hero .grid-two-column{
         grid-template-columns: 1fr;
