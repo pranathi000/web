@@ -40,6 +40,9 @@ html{
     font-size: 62.5%;
     /* 1rem = 10px */
 }
+body{
+    width:110%;
+}
 h1,h2,h3,h4{
     /* font-family: 'Alegreya Sans SC', sans-serif; */
     /* font-family: 'Alkalami', serif; */
@@ -1176,7 +1179,7 @@ img{
         display:flex;
         align-items: center;
         justify-content: center;
-        margin-left: 10%;
+       
     }
     .section-portfolio .grid-three-column{
         grid-template-columns: 1fr ;
