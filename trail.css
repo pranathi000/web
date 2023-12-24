@@ -70,8 +70,8 @@ p{
     line-height: 1.7;
     font-size: 2.5rem;
     text-decoration: none;
-    /* font-family: 'Barlow', sans-serif; */
-    font-family: bold;
+    /* font-family: 'Barlow' */
+    font-family: Alegreya Sans SC ;
     cursor: nw-resize;
 
  }
@@ -151,7 +151,7 @@ img{
     background-color:transparent;
     color: black;
     padding: 14px 28px;
-    font-size: 16px;
+    /* font-size: 16px; */
     cursor: pointer;
     padding: 1.6rem 3.2rem;
     /* border: none; */
@@ -601,7 +601,7 @@ img{
 }
   
 .section-freelancing p, .section-freelancing h2 {
-    color: #fff;
+    color: #3f4144;
 }
 .section-freelancing h2{
     font-size: 5.4rem;
@@ -948,7 +948,7 @@ img{
 }
 @media screen and (max-width: 700px) {
     .section-hero-data{
-        align-items: center;
+        align-items: left;
     }
 
     .section-biodata .grid-two-column{
@@ -1146,7 +1146,9 @@ img{
         cursor: nw-resize;
     
      }
-   
+   .button{
+    font-size: 4rem;
+   }
      .f-about p{
         font-size: 5rem;
      }
@@ -1170,7 +1172,11 @@ img{
        
     }
     .portfolio-images img{
-        margin-right: 50rem;
+        /* margin-right: 50rem; */
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
     }
     .section-portfolio .grid-three-column{
         grid-template-columns: 1fr ;
@@ -1207,6 +1213,12 @@ img{
 }
 .home .media-icons{
     right: 50rem;
+}
+.home .content p{
+    width: 100rem;
+}
+.section-hero-data{
+    align-items: left;
 }
 }
 
