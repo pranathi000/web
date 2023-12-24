@@ -66,12 +66,12 @@ h3{
     color: rgb(146, 84, 25);
 }
 p{
-    color: rgb(19, 50, 63);
+    color: rgb(0, 0, 0);
     line-height: 1.7;
     font-size: 2.5rem;
     text-decoration: none;
     /* font-family: 'Barlow', sans-serif; */
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: bold;
     cursor: nw-resize;
 
  }
@@ -1136,8 +1136,28 @@ img{
 
 
  @media screen and (max-width:400px) {
+    p{
+        color: rgb(0, 0, 0);
+        line-height: 1.7;
+        font-size: 3rem;
+        text-decoration: none;
+        /* font-family: 'Barlow', sans-serif; */
+        font-family: bold;
+        cursor: nw-resize;
+    
+     }
+   
+     .f-about p{
+        font-size: 5rem;
+     }
+     .f-links-para{
+        font-size: 2.8rem;
+     }
     .section-header{
         width: 100%;
+    }
+    .section-footer h3{
+        font-size: 5.5rem;
     }
     .grid-two-column{
             /* grid-template-columns: 1fr; */
@@ -1148,6 +1168,9 @@ img{
         display: flex;
         margin-left: 100px;
        
+    }
+    .portfolio-images img{
+        margin-right: 50rem;
     }
     .section-portfolio .grid-three-column{
         grid-template-columns: 1fr ;
@@ -1168,6 +1191,23 @@ img{
     .menu-btn{
         margin-right: -100rem;
     }
+    .f-links li,
+.f-links a,
+.f-services li,
+.f-services a{
+    font-size: 3.1rem;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+.hero-para{
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+    max-width: 100rem;
+    font-size: 3rem;
+}
+.home .media-icons{
+    right: 50rem;
+}
 }
 
 
@@ -1320,7 +1360,9 @@ header .navigation .navigation-items a:hover:before{
         padding: 100px 20px;
     }
     .home .media-icons{
-        right: -100rem;
+    /* right: 50%; */
+    left: 100rem;
+    
     }
     header .navigation {
         display: none;
