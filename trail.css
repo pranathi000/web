@@ -346,7 +346,7 @@ img{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 70%;
     height: 100%;
     background: var(--background-image);
     opacity: 0;
@@ -940,7 +940,7 @@ img{
 
         
     .portfolio-images img {
-        width: 100%;
+        width: 70%;
         border-radius: 7px;
         position: relative;
         overflow: hidden;
@@ -1117,6 +1117,9 @@ img{
     }
     .menu-btn{
         margin-right: -100rem;
+    }
+    .portfolio-images img {
+        width: 70%;
     }
 }
 
