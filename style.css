@@ -1120,6 +1120,9 @@ img{
         grid-template-columns:1fr;
 
     }
+    .hidden{
+        content-visibility: hidden;
+    }
     .section-portfolio .grid-three-column{
         grid-template-columns: 1fr;
     }
