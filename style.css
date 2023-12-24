@@ -1226,6 +1226,9 @@ img{
 .home .content p{
     width: 100rem;
 }
+         .hidden{
+        content-visibility: hidden;
+    }
 .section-hero-data{
     align-items: left;
 }
