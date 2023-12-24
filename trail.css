@@ -1088,47 +1088,38 @@ img{
     }
 }
 
-
-@media screen and (max-width: 400px) {
-    
-    .portfolio-images {
-        width: 140%;
-
+ @media screen and (max-width:400px) {
+    .section-header{
+        width: 100%;
     }
-    .section-portfolio{
-        padding: 50px;
-        width: 500%;
-
+    .grid-two-column{
+            /* grid-template-columns: 1fr; */
+            grid-template-rows: 1fr;
+            margin-left: 50px;
     }
-    .image-overlay{
-        width: 75%;
-    }
-
-    .section-contact ,.section-hero,.section-services, .section-biodata, .section-testimonial , .section-services , .section-footer , .section-freelancing , .section-work-data{
-        width: 500%;
-    }
-    .section-hero .grid-two-column{
-        grid-template-columns: 1fr;
-    }
-    .section-biodata .grid-two-column{
-        grid-template-columns:1fr;
-
+    .section-hero-image{
+        display: flex;
+        margin-left: 100px;
+       
     }
     .section-portfolio .grid-three-column{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr ;
     }
     .section-services .grid-three-column{
-        grid-template-columns: 1fr 1fr;
-    }
-    .section-header .vedio-slide{
-        width: 160rem;
-    }
-    .menu-btn{
-        margin-right: -103rem;
+        grid-template-columns: 1fr 1fr ;
     }
 
-    
+    .section-contact ,.section-footer, .section-portfolio,.section-hero,.section-services, .section-biodata, .section-testimonial , .section-services , .section-footer , .section-freelancing , .section-work-data{
+        width: 430%;
+    }
+    .section-header .vedio-slide{
+        width: 430%;
+    }
+    .menu-btn{
+        margin-right: -100rem;
+    }
 }
+
 
 
 
