@@ -1120,9 +1120,6 @@ img{
         grid-template-columns:1fr;
 
     }
-    .hidden{
-        content-visibility: hidden;
-    }
     .section-portfolio .grid-three-column{
         grid-template-columns: 1fr;
     }
@@ -1193,6 +1190,9 @@ img{
     .section-services .grid-three-column{
         grid-template-columns: 1fr 1fr ;
     }
+    .hidden{
+        content-visibility: hidden;
+    }
 
     .section-contact ,.section-footer, .section-portfolio,.section-hero,.section-services, .section-biodata, .section-testimonial , .section-services , .section-footer , .section-freelancing , .section-work-data{
         width: 430%;
@@ -1226,9 +1226,6 @@ img{
 .home .content p{
     width: 100rem;
 }
-         .hidden{
-        content-visibility: hidden;
-    }
 .section-hero-data{
     align-items: left;
 }
