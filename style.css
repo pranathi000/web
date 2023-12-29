@@ -1150,15 +1150,14 @@ img{
         /* font-family: 'Barlow', sans-serif; */
         font-family: bold;
         cursor: nw-resize;
-    
-     }
+    }
    .button{
     font-size: 4rem;
    }
-     .f-about p{
+    .f-about p{
         font-size: 5rem;
      }
-     .f-links-para{
+    .f-links-para{
         font-size: 2.8rem;
      }
     .section-header{
@@ -1230,6 +1229,21 @@ img{
     align-items: left;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
