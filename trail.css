@@ -1168,6 +1168,7 @@ img{
      .f-social-icons .icons{
          width:8rem;
          height:8rem;
+         font-size:3rem;
      }
      .f-links-para{
         font-size: 2.8rem;
@@ -1199,6 +1200,7 @@ img{
         display:flex;
         align-items: center;
         justify-content: center;
+        margin-left:8%
        
     }
     .section-portfolio .grid-three-column{
@@ -1213,10 +1215,16 @@ img{
     }
     .image-overlay .overlay{
         width: 70%;
+        margin-left:8%
     }
     .section-header .vedio-slide{
         width: 430%;
     }
+     .fa-brands .fab{
+         font-weight:400;
+         font-size:25px;
+         padding:10px;
+     }
     .menu-btn{
         margin-right: -100rem;
     }
