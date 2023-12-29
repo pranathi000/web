@@ -1154,7 +1154,8 @@ img{
     }
      }
      body{
-         width:110%;
+         width:100%;
+         overflow-x:hidden;
      }
    .button{
     font-size: 4rem;
