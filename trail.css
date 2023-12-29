@@ -1149,6 +1149,7 @@ img{
         /* font-family: 'Barlow', sans-serif; */
         font-family: bold;
         cursor: nw-resize;
+        width:90%;
     .hidden{
         content-visibility: hidden;
     }
