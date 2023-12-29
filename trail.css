@@ -1162,7 +1162,12 @@ img{
     font-size: 4rem;
    }
      .f-about p{
-        font-size: 5rem;
+        font-size: 3rem;
+         width:75%;
+     }
+     .f-social-icons .icons{
+         width:8rem;
+         height:8rem;
      }
      .f-links-para{
         font-size: 2.8rem;
