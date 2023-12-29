@@ -1147,7 +1147,12 @@ img{
         /* font-family: 'Barlow', sans-serif; */
         font-family: bold;
         cursor: nw-resize;
-    
+    .hidden{
+        content-visibility: hidden;
+    }
+     }
+     body{
+         width:90%;
      }
    .button{
     font-size: 4rem;
