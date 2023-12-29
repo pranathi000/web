@@ -1152,7 +1152,7 @@ img{
     }
      }
      body{
-         width:90%;
+         width:100%;
      }
    .button{
     font-size: 4rem;
@@ -1177,6 +1177,8 @@ img{
     .section-hero-image{
         display: flex;
         margin-left: 100px;
+        width: 0px;
+        content-visibility:hidden;
        
     }
     .portfolio-images img{
