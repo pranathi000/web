@@ -964,6 +964,7 @@ img{
     }
     .section-biodata .bio-image img{
         width: 50%;
+        content-visibility:hidden;
     }
     .section-hero .grid-two-column{
         grid-template-columns: 1fr;
